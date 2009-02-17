@@ -1,0 +1,299 @@
+Server Software:        Apache/2.2.9
+Server Hostname:        demo.u64rails01.local
+Server Port:            80
+
+Document Path:          /posts
+Document Length:        3050 bytes
+
+Concurrency Level:      100
+Time taken for tests:   379.755629 seconds
+Complete requests:      10000
+Failed requests:        0
+Write errors:           0
+Total transferred:      36668229 bytes
+HTML transferred:       30500000 bytes
+Requests per second:    26.33 [#/sec] (mean)
+Time per request:       3797.556 [ms] (mean)
+Time per request:       37.976 [ms] (mean, across all concurrent requests)
+Transfer rate:          94.29 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   3.0      0      52
+Processing:   300 3775 509.8   3611    9465
+Waiting:      299 3773 509.8   3609    9464
+Total:        308 3775 509.4   3611    9510
+
+Percentage of the requests served within a certain time (ms)
+  50%   3611
+  66%   4067
+  75%   4155
+  80%   4198
+  90%   4362
+  95%   4503
+  98%   4746
+  99%   4917
+ 100%   9510 (longest request)
+
+
+Captured at 5000 served:
+
+-------------- Apache processes ---------------
+PID    PPID   Threads  VMSize    Private  Name
+-----------------------------------------------
+13229  1      1        125.7 MB  0.2 MB   /usr/sbin/apache2 -k start
+13236  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13241  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13354  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13358  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13362  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13364  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13367  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13369  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13371  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13373  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13374  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13378  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13381  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13383  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13387  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13389  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13391  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13393  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13395  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13397  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13399  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13400  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13402  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13404  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13406  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13411  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13413  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13415  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13418  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13420  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13424  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13426  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13428  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13435  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13439  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13442  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13446  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13448  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13450  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13452  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13457  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13459  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13461  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13463  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13465  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13469  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13471  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13487  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13491  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13495  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13498  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13502  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13504  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13507  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13510  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13512  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13514  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13522  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13530  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13533  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13536  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13538  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13544  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13546  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13550  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13552  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13556  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13558  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13564  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13566  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13567  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13568  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13569  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13571  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13573  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13574  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13576  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13578  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13581  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13582  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13583  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13584  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13586  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13587  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13590  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13594  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13595  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13596  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13598  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13599  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13600  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13603  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13604  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13605  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13606  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13731  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13733  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13735  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13737  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13738  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13739  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13741  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13745  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13746  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13747  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13748  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13749  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13751  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13752  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13753  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+### Processes: 111
+### Total private dirty RSS: 24.18 MB
+
+--------- Passenger processes ----------
+PID    Threads  VMSize    Private  Name
+----------------------------------------
+13230  113      31.1 MB   1.9 MB   /opt/ruby-enterprise-1.8.6-20090201/lib/ruby/gems/1.8/gems/passenger-2.0.6/ext/apache2/ApplicationPoolServerExecutable 0 /opt/ruby-enterprise-1.8.6-20090201/lib/ruby/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server  /opt/ruby-enterprise-1.8.6-20090201/bin/ruby  /tmp/passenger_status.13229.fifo
+13232  1        69.9 MB   8.3 MB   Passenger spawn server
+13347  1        115.1 MB  14.3 MB  Passenger FrameworkSpawner: 2.2.2
+13410  1        115.1 MB  12.2 MB  Passenger ApplicationSpawner: /var/www/rails/demo
+13476  1        141.8 MB  24.1 MB  Rails: /var/www/rails/demo
+13478  1        141.8 MB  24.0 MB  Rails: /var/www/rails/demo
+13480  1        141.8 MB  24.0 MB  Rails: /var/www/rails/demo
+13482  1        141.8 MB  24.0 MB  Rails: /var/www/rails/demo
+13484  1        141.8 MB  24.1 MB  Rails: /var/www/rails/demo
+13486  1        141.8 MB  24.1 MB  Rails: /var/www/rails/demo
+### Processes: 10
+### Total private dirty RSS: 180.90 MB
+
+Captured at the end:
+
+-------------- Apache processes ---------------
+PID    PPID   Threads  VMSize    Private  Name
+-----------------------------------------------
+13229  1      1        125.7 MB  0.2 MB   /usr/sbin/apache2 -k start
+13236  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13241  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13354  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13358  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13362  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13364  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13367  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13369  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13371  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13373  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13374  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13378  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13381  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13383  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13387  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13389  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13391  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13393  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13395  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13397  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13399  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13400  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13402  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13404  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13406  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13411  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13413  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13415  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13418  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13420  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13428  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13435  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13439  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13442  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13446  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13448  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13450  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13452  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13457  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13459  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13465  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13469  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13471  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13487  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13498  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13502  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13504  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13507  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13510  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13512  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13514  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13522  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13530  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13533  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13536  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13538  13229  1        0.0 MB    ?        [apache2] <defunct>
+13544  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13546  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13550  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13552  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13556  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13558  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13566  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13567  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13568  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13571  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13573  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13574  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13576  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13578  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13581  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13582  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13583  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13584  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13586  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13587  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13590  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13594  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13595  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13596  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13598  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13599  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13600  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13603  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13604  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13605  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13606  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13731  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13733  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13735  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13737  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13738  13229  1        125.8 MB  ?        /usr/sbin/apache2 -k start
+13739  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13741  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13745  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13746  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13747  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13748  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13749  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13751  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13752  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+13753  13229  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+### Processes: 103
+### Total private dirty RSS: 22.00 MB (?)
+
+--------- Passenger processes ----------
+PID    Threads  VMSize    Private  Name
+----------------------------------------
+13230  102      31.1 MB   1.9 MB   /opt/ruby-enterprise-1.8.6-20090201/lib/ruby/gems/1.8/gems/passenger-2.0.6/ext/apache2/ApplicationPoolServerExecutable 0 /opt/ruby-enterprise-1.8.6-20090201/lib/ruby/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server  /opt/ruby-enterprise-1.8.6-20090201/bin/ruby  /tmp/passenger_status.13229.fifo
+13232  1        69.9 MB   8.3 MB   Passenger spawn server
+13347  1        115.1 MB  14.3 MB  Passenger FrameworkSpawner: 2.2.2
+13410  1        115.1 MB  12.2 MB  Passenger ApplicationSpawner: /var/www/rails/demo
+13476  1        141.8 MB  24.1 MB  Rails: /var/www/rails/demo
+13478  1        141.8 MB  24.0 MB  Rails: /var/www/rails/demo
+13480  1        141.8 MB  24.0 MB  Rails: /var/www/rails/demo
+13482  1        141.8 MB  24.0 MB  Rails: /var/www/rails/demo
+13484  1        141.8 MB  24.1 MB  Rails: /var/www/rails/demo
+13486  1        141.8 MB  24.0 MB  Rails: /var/www/rails/demo
+### Processes: 10
+### Total private dirty RSS: 180.89 MB

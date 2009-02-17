@@ -1,0 +1,28 @@
+<p style="color: green"></p>
+
+<h1>Listing posts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Body</th>
+    <th>Author</th>
+  </tr>
+
+
+<% for post in @posts %>
+  <tr>
+    <td><%= post.title %></td>
+    <td><%= post.body %></td>
+    <td><%= post.author %></td>
+    <td><%= A("Show", :href => Rs(:show,  post.id)) %></td>  
+    <td><%= A("Edit", :href => Rs(:edit, post.id)) %></td>
+    <td><%= A("Destroy", :href => Rs(:delete, post.id)) %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<a href="/posts/new">New post</a>
+

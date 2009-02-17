@@ -1,0 +1,298 @@
+Server Software:        Apache/2.2.9
+Server Hostname:        ramaze.u64rails01.local
+Server Port:            80
+
+Document Path:          /posts
+Document Length:        1448 bytes
+
+Concurrency Level:      100
+Time taken for tests:   397.43203 seconds
+Complete requests:      10000
+Failed requests:        0
+Write errors:           0
+Total transferred:      18130000 bytes
+HTML transferred:       14480000 bytes
+Requests per second:    25.19 [#/sec] (mean)
+Time per request:       3970.432 [ms] (mean)
+Time per request:       39.704 [ms] (mean, across all concurrent requests)
+Transfer rate:          44.59 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.8      0      62
+Processing:   710 3951 695.0   3627    7347
+Waiting:      708 3949 694.9   3625    7345
+Total:        713 3951 694.8   3627    7347
+
+Percentage of the requests served within a certain time (ms)
+  50%   3627
+  66%   4381
+  75%   4591
+  80%   4671
+  90%   4861
+  95%   5048
+  98%   5472
+  99%   5729
+ 100%   7347 (longest request)
+
+Captured at 5000 served:
+
+-------------- Apache processes ---------------
+PID    PPID   Threads  VMSize    Private  Name
+-----------------------------------------------
+16776  1      1        125.7 MB  0.2 MB   /usr/sbin/apache2 -k start
+16783  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16785  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16786  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16787  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16797  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16799  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16801  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16805  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16807  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16809  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16813  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16815  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16816  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16818  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16820  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16822  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16824  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16833  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16835  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16837  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16838  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16840  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16843  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16845  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16847  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16853  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16855  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16857  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16859  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16861  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16863  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16865  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16867  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16868  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16874  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16876  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16878  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16880  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16882  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16884  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16886  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16888  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16890  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16892  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16894  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16896  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16898  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16900  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16908  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16910  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16912  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16914  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16916  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16918  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16920  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16922  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16924  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16929  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16931  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16932  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16934  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16936  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16938  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16940  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16942  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16944  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16946  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16950  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16953  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16956  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16958  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16960  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16966  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16970  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16974  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16976  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16978  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16980  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16982  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16984  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16986  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16988  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16990  16776  1        125.9 MB  0.3 MB   /usr/sbin/apache2 -k start
+16992  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16995  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16998  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17003  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17011  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17012  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17013  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17014  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17015  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17016  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17017  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17019  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17021  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17022  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17023  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17024  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17025  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17026  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17027  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17062  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17247  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17249  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17251  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17253  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17254  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17256  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17257  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+### Processes: 111
+### Total private dirty RSS: 23.07 MB
+
+--------- Passenger processes ----------
+PID    Threads  VMSize    Private  Name
+----------------------------------------
+16778  113      29.7 MB   1.8 MB   /usr/lib/ruby/gems/1.8/gems/passenger-2.0.6/ext/apache2/ApplicationPoolServerExecutable 0 /usr/lib/ruby/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server  /usr/bin/ruby1.8  /tmp/passenger_status.16776.fifo
+16780  2        53.9 MB   7.9 MB   Passenger spawn server
+16796  1        126.4 MB  35.4 MB  Rack: /var/www/ramaze/demo
+16812  1        126.1 MB  35.2 MB  Rack: /var/www/ramaze/demo
+16928  1        126.1 MB  35.2 MB  Rack: /var/www/ramaze/demo
+17029  1        126.1 MB  35.1 MB  Rack: /var/www/ramaze/demo
+17034  1        126.1 MB  35.2 MB  Rack: /var/www/ramaze/demo
+17039  1        126.1 MB  35.2 MB  Rack: /var/www/ramaze/demo
+### Processes: 8
+### Total private dirty RSS: 221.11 MB
+
+
+Captured at the end:
+
+-------------- Apache processes ---------------
+PID    PPID   Threads  VMSize    Private  Name
+-----------------------------------------------
+16776  1      1        125.7 MB  0.2 MB   /usr/sbin/apache2 -k start
+16783  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16785  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16786  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16787  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16797  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16799  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16801  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16805  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16809  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16813  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16815  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16816  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16818  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16820  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16822  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16824  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16833  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16835  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16837  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16838  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16840  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16843  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16845  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16847  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16855  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16857  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16859  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16861  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16863  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16865  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16867  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16874  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16876  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16878  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16880  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16882  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16884  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16886  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16888  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16890  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16892  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16894  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16896  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16898  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16900  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16908  16776  1        0.0 MB    ?        [apache2] <defunct>
+16910  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16912  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16914  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16916  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16918  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16920  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16922  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16924  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16929  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16931  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16932  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16934  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16936  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16938  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16940  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16942  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16944  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16946  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16950  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16953  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16956  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16958  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16960  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16966  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16970  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16974  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16976  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16978  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16980  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16982  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16984  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16986  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16988  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16992  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16995  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+16998  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17003  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17011  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17012  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17013  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17014  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17015  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17016  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17017  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17019  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17021  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17022  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17023  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17024  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17025  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17026  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17027  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17062  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17247  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17249  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17251  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17253  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17256  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+17257  16776  1        125.8 MB  0.2 MB   /usr/sbin/apache2 -k start
+### Processes: 106
+### Total private dirty RSS: 21.71 MB (?)
+
+--------- Passenger processes ----------
+PID    Threads  VMSize    Private  Name
+----------------------------------------
+16778  106      29.7 MB   1.8 MB   /usr/lib/ruby/gems/1.8/gems/passenger-2.0.6/ext/apache2/ApplicationPoolServerExecutable 0 /usr/lib/ruby/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server  /usr/bin/ruby1.8  /tmp/passenger_status.16776.fifo
+16780  2        53.9 MB   7.9 MB   Passenger spawn server
+16796  1        126.4 MB  35.4 MB  Rack: /var/www/ramaze/demo
+16812  1        126.1 MB  35.2 MB  Rack: /var/www/ramaze/demo
+16928  1        126.1 MB  35.2 MB  Rack: /var/www/ramaze/demo
+17029  1        126.1 MB  35.1 MB  Rack: /var/www/ramaze/demo
+17034  1        126.1 MB  35.2 MB  Rack: /var/www/ramaze/demo
+17039  1        126.1 MB  35.2 MB  Rack: /var/www/ramaze/demo
+### Processes: 8
+### Total private dirty RSS: 221.11 MB
