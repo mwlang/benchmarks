@@ -1,0 +1,287 @@
+Server Software:        Apache/2.2.9
+Server Hostname:        ramaze.u64rails01.local
+Server Port:            80
+
+Document Path:          /posts
+Document Length:        1468 bytes
+
+Concurrency Level:      100
+Time taken for tests:   351.949060 seconds
+Complete requests:      10000
+Failed requests:        0
+Write errors:           0
+Total transferred:      18460000 bytes
+HTML transferred:       14680000 bytes
+Requests per second:    28.41 [#/sec] (mean)
+Time per request:       3519.491 [ms] (mean)
+Time per request:       35.195 [ms] (mean, across all concurrent requests)
+Transfer rate:          51.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   3.4      0      56
+Processing:   353 3498 731.4   3507    5712
+Waiting:      348 3494 731.4   3504    5709
+Total:        361 3499 731.0   3508    5712
+
+Percentage of the requests served within a certain time (ms)
+  50%   3508
+  66%   3827
+  75%   3952
+  80%   4027
+  90%   4343
+  95%   5033
+  98%   5323
+  99%   5429
+ 100%   5712 (longest request)
+
+Captured at 5000:
+
+-------------- Apache processes --------------
+PID    PPID  Threads  VMSize    Private  Name
+----------------------------------------------
+6137   1     1        125.8 MB  0.3 MB   /usr/sbin/apache2 -k start
+6477   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6534   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6537   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6588   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6604   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6642   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6657   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6666   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6674   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6687   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23052  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23054  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23056  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23058  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23060  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23061  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23063  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23066  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23068  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23070  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23072  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23073  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23075  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23077  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23080  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23082  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23084  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23086  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23088  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23090  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23092  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23093  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23099  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23103  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23106  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23109  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23111  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23113  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23116  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23118  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23119  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23124  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23125  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23127  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23130  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23131  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23134  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23135  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23138  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23140  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23142  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23144  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23146  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23148  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23150  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23151  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23153  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23156  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23158  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23160  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23161  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23163  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23165  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23167  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23170  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23172  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23174  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23176  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23177  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23179  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23181  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23184  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23186  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23188  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23190  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23192  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23193  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23195  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23198  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23200  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23202  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23204  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23206  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23208  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23210  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23211  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23213  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23215  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23217  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23220  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23221  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23223  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23225  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23228  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23230  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23232  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23233  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23235  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23238  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23240  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23242  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23243  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23244  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23245  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23246  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23404  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+### Processes: 107
+### Total private dirty RSS: 27.36 MB
+
+--------- Passenger processes ----------
+PID    Threads  VMSize    Private  Name
+----------------------------------------
+6144   109      92.8 MB   2.4 MB   /usr/local/lib/ruby/gems/1.9.1/gems/passenger-2.1.0/ext/apache2/lib/passenger/ApplicationPoolServerExecutable 0 /usr/local/lib/ruby/gems/1.9.1/gems/passenger-2.1.0/ext/apache2/lib/passenger/passenger-spawn-server  /usr/local/bin/ruby  /tmp/passenger.6137/status.fifo
+6145   4        39.0 MB   5.8 MB   Passenger spawn server
+23048  2        121.9 MB  33.5 MB  Rack: /var/www/ramaze/demo
+23102  3        121.9 MB  33.6 MB  Rack: /var/www/ramaze/demo
+23251  3        121.9 MB  33.6 MB  Rack: /var/www/ramaze/demo
+23318  2        122.0 MB  33.6 MB  Rack: /var/www/ramaze/demo
+23329  2        121.9 MB  33.6 MB  Rack: /var/www/ramaze/demo
+23340  2        121.9 MB  33.5 MB  Rack: /var/www/ramaze/demo
+### Processes: 8
+### Total private dirty RSS: 209.55 MB
+
+Captured at end:
+
+-------------- Apache processes --------------
+PID    PPID  Threads  VMSize    Private  Name
+----------------------------------------------
+6137   1     1        125.8 MB  0.3 MB   /usr/sbin/apache2 -k start
+6477   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6534   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6537   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6588   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6604   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6666   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6674   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+6687   6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23052  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23056  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23058  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23060  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23061  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23063  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23066  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23068  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23072  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23073  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23075  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23077  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23080  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23082  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23084  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23086  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23088  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23090  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23092  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23093  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23099  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23103  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23109  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23111  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23113  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23116  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23118  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23119  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23124  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23125  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23127  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23131  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23134  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23135  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23138  6137  1        126.0 MB  ?        /usr/sbin/apache2 -k start
+23140  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23142  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23144  6137  1        0.0 MB    ?        [apache2] <defunct>
+23146  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23148  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23150  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23151  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23153  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23156  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23158  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23160  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23161  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23163  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23165  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23167  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23170  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23172  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23174  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23176  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23177  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23179  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23181  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23184  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23186  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23188  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23190  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23192  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23193  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23195  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23198  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23200  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23202  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23204  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23206  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23208  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23211  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23213  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23215  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23217  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23220  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23221  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23223  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23225  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23228  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23230  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23232  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23233  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23235  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23238  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23240  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23242  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23243  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23244  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23245  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23246  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+23404  6137  1        126.0 MB  0.3 MB   /usr/sbin/apache2 -k start
+### Processes: 100
+### Total private dirty RSS: 25.07 MB (?)
+
+--------- Passenger processes ----------
+PID    Threads  VMSize    Private  Name
+----------------------------------------
+6144   100      92.8 MB   2.4 MB   /usr/local/lib/ruby/gems/1.9.1/gems/passenger-2.1.0/ext/apache2/lib/passenger/ApplicationPoolServerExecutable 0 /usr/local/lib/ruby/gems/1.9.1/gems/passenger-2.1.0/ext/apache2/lib/passenger/passenger-spawn-server  /usr/local/bin/ruby  /tmp/passenger.6137/status.fifo
+6145   4        39.0 MB   5.8 MB   Passenger spawn server
+23048  2        122.2 MB  33.7 MB  Rack: /var/www/ramaze/demo
+23102  3        122.2 MB  33.8 MB  Rack: /var/www/ramaze/demo
+23251  3        122.2 MB  33.7 MB  Rack: /var/www/ramaze/demo
+23318  2        122.1 MB  33.8 MB  Rack: /var/www/ramaze/demo
+23329  2        122.2 MB  33.8 MB  Rack: /var/www/ramaze/demo
+23340  2        122.2 MB  33.7 MB  Rack: /var/www/ramaze/demo
+### Processes: 8
+### Total private dirty RSS: 210.73 MB
