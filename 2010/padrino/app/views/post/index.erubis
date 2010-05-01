@@ -1,0 +1,28 @@
+<p style="color: green"></p>
+
+<h1>Listing posts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Body</th>
+    <th>Author</th>
+  </tr>
+
+
+<% for post in @posts %>
+  <tr>
+    <td><%= post[:title] %></td>
+    <td><%= post[:body] %></td>
+    <td><%= post[:author] %></td>
+	<td><%= link_to "Show", url(:post, :show, :id => post[:id]) %></td>
+	<td><%= link_to "Edit", url(:post, :edit, :id => post[:id]) %></td>
+	<td><%= link_to "Destroy", url(:post, :destroy, :id => post[:id]) %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<a href="/posts/new">New post</a>
+

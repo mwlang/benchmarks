@@ -1,0 +1,11 @@
+----- Passenger processes ------
+PID    VMSize    Resident  Name
+--------------------------------
+14173  594.5 MB  2.9 MB    /opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.11/ext/apache2/ApplicationPoolServerExecutable 0 /opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.11/bin/passenger-spawn-server  /opt/local/bin/ruby  /tmp/passenger.13644
+14174  83.7 MB   11.4 MB   Passenger spawn server
+14232  98.0 MB   26.3 MB   Rack: /Users/mwlang/projects/personal/benchmarks/2010/ramaze
+14234  98.0 MB   26.3 MB   Rack: /Users/mwlang/projects/personal/benchmarks/2010/ramaze
+14237  98.0 MB   26.3 MB   Rack: /Users/mwlang/projects/personal/benchmarks/2010/ramaze
+14241  98.0 MB   26.3 MB   Rack: /Users/mwlang/projects/personal/benchmarks/2010/ramaze
+14243  98.0 MB   26.3 MB   Rack: /Users/mwlang/projects/personal/benchmarks/2010/ramaze
+14249  98.0 MB   26.3 MB   Rack: /Users/mwlang/projects/personal/benchmarks/2010/ramaze
